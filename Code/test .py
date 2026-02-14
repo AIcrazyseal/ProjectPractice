@@ -17,6 +17,6 @@ if os.path.exists('a.txt'):
     print("文件存在")
 else:
     print("文件不存在")
-f = open('code/a.txt','r',encoding='utf-8')
+f = open('ProjectPractice/code/a.txt','r',encoding='utf-8')
 s = f.readline()
 print(s)
