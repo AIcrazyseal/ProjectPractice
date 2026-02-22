@@ -1,0 +1,15 @@
+# Tavily API 配置
+TAVILY_API_KEY=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
+
+# 大语言模型 API 配置（选择其中一种）
+# 选项一：AIHubmix
+
+OPENAI_API_KEY=sk-nKumy4aQmc99z85X21CeFe7407554eA79e3e0937Eb3dB2C2 
+OPENAI_BASE_URL=https://aihubmix.com/v1
+MODEL_NAME=gpt-4.1-free
+"""
+# 选项二：Modelscope
+OPENAI_API_KEY=ms-1a8b259d-086d-4916-9c88-f0094a96096d
+OPENAI_BASE_URL=https://api-inference.modelscope.cn/v1/
+MODEL_NAME=deepseek-ai/DeepSeek-R1-Distill-Qwen-7B
+"""
