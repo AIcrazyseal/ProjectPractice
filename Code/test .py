@@ -20,3 +20,5 @@ else:
 f = open('ProjectPractice/code/a.txt','r',encoding='utf-8')
 s = f.readline()
 print(s)
+
+
